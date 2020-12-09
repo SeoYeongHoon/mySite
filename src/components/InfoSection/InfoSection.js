@@ -8,7 +8,9 @@ import { InfoSec,
          TextWrapper,
          TopLine,
          Heading,
-         Subtitle
+         Subtitle,
+         ImgWrapper,
+         Img
         } from './InfoSection.elements';
 
 const InfoSection = ({
@@ -21,7 +23,10 @@ const InfoSection = ({
                       description, 
                       headline, 
                       lightText, 
-                      topLine
+                      topLine,
+                      img,
+                      alt,
+                      start
                     }) => {
     return (
         <>
